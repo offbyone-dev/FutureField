@@ -1,0 +1,72 @@
+# ==========================================
+# FutureField — Git Ignore
+# ==========================================
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node.js
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+vite.config.*.timestamp-*
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs
+logs/
+*.log
+*-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary Files
+*.tmp
+*.cache
+.claude-replay.*
+.tmp-*
+
+# IDE
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Figma
+/.figma/design-context/
+Frontend/.figma/
+Frontend/.figma/
+
+# Platform-managed files
+/.plugins/
+/.opencode-skills/
+
+# Local backend data
+FutureField/Backend/data/alerts/
+FutureField/Backend/data/cache/
+FutureField/Backend/data/environment/
+FutureField/Backend/data/fields/
+FutureField/Backend/data/outcomes/
+
+/FutureField/Frontend/.figma/

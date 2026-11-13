@@ -1,0 +1,12 @@
+{
+  "supported_bbox": [88.0, 20.5, 92.7, 26.7],
+  "name": "Bangladesh and immediate environs",
+  "note": "Bounding box covers all of Bangladesh (lon 88.0-92.7, lat 20.5-26.7) plus a ~0.5 degree buffer. Source: Natural Earth / UN geospatial data.",
+  "center": [23.7, 90.4],
+  "typical_crops": ["rice", "wheat", "lentil", "maize", "mustard", "jute", "potato"],
+  "seasons": {
+    "kharif_1": {"name": "Pre-kharif / Aus", "months": [3, 4, 5, 6, 7], "note": "Aus rice, maize, jute"},
+    "kharif_2": {"name": "Kharif / Aman", "months": [6, 7, 8, 9, 10, 11], "note": "Aman rice (dominant rainfed season)"},
+    "rabi": {"name": "Rabi / Cool season", "months": [10, 11, 12, 1, 2, 3], "note": "Boro rice (irrigated), wheat, lentil, mustard, potato"}
+  }
+}

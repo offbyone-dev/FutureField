@@ -1,0 +1,74 @@
+{
+  "country": "Bangladesh",
+  "calendar_version": "1.3",
+  "calendar_status": "provisional",
+  "crops": {
+    "rice": {
+      "variants": [
+        {
+          "season_id": "aus",
+          "name": "Aus Rice",
+          "region": "Bangladesh",
+          "planting_months": [3, 4, 5],
+          "nursery_months": [],
+          "direct_seeding_months": [],
+          "transplanting_months": [],
+          "harvest_months": [7, 8],
+          "source": null,
+          "verified": false,
+          "notes": "Approximate national calendar. Planting methods and dates require verification.",
+          "verification": {
+            "status": "pending",
+            "institution": null,
+            "publication_title": null,
+            "publication_url": null,
+            "page_or_section": null,
+            "verified_on": null
+          }
+        },
+        {
+          "season_id": "aman",
+          "name": "Aman Rice",
+          "region": "Bangladesh",
+          "planting_months": [6, 7, 8],
+          "nursery_months": [],
+          "direct_seeding_months": [],
+          "transplanting_months": [],
+          "harvest_months": [11, 12],
+          "source": null,
+          "verified": false,
+          "notes": "Approximate national calendar. Regional and variety differences require verification.",
+          "verification": {
+            "status": "pending",
+            "institution": null,
+            "publication_title": null,
+            "publication_url": null,
+            "page_or_section": null,
+            "verified_on": null
+          }
+        },
+        {
+          "season_id": "boro",
+          "name": "Boro Rice",
+          "region": "Bangladesh",
+          "planting_months": [11, 12, 1, 2],
+          "nursery_months": [],
+          "direct_seeding_months": [],
+          "transplanting_months": [],
+          "harvest_months": [4, 5, 6],
+          "source": null,
+          "verified": false,
+          "notes": "Approximate national calendar. Nursery and transplanting windows require verification.",
+          "verification": {
+            "status": "pending",
+            "institution": null,
+            "publication_title": null,
+            "publication_url": null,
+            "page_or_section": null,
+            "verified_on": null
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "forbid_same_crop_consecutive": true,
+  "same_family_penalty": 0.15,
+  "carryover_strength": 0.5,
+  "_notes": {
+    "forbid_same_crop_consecutive": "Prevents monoculture sequences (same crop in back-to-back slots). FAO crop rotation best practice.",
+    "same_family_penalty": "Penalty (0-1) applied per adjacent pair in the same botanical family (e.g., two Poaceae in a row). Discourages all-cereal rotations with high disease build-up risk.",
+    "carryover_strength": "Multiplier (0-1) on crop.soil_effect for soil fertility carry-over between slots. 0.5 = moderate; 1.0 = full carry-over. Represents how much of the previous crop's soil benefit transfers.",
+    "source": "FAO Crop Rotation Guidelines; BARC Bangladesh Cropping Patterns; general agronomy principles."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "soil_types": [
+    {"id": "clay", "label": "Clay", "ph": 6.2, "organic_matter": 2.8, "drainage": "poor"},
+    {"id": "clay_loam", "label": "Clay Loam", "ph": 6.3, "organic_matter": 2.4, "drainage": "moderate"},
+    {"id": "loam", "label": "Loam", "ph": 6.5, "organic_matter": 2.5, "drainage": "moderate"},
+    {"id": "silt_loam", "label": "Silt Loam", "ph": 6.4, "organic_matter": 2.6, "drainage": "moderate"},
+    {"id": "sandy_loam", "label": "Sandy Loam", "ph": 6.6, "organic_matter": 1.8, "drainage": "good"},
+    {"id": "sandy", "label": "Sandy", "ph": 6.8, "organic_matter": 1.1, "drainage": "excessive"}
+  ],
+  "irrigation_types": [
+    {"id": "rainfed", "label": "Rainfed"},
+    {"id": "supplemental", "label": "Supplemental irrigation"},
+    {"id": "irrigated", "label": "Fully irrigated"}
+  ],
+  "water_sources": [
+    {"id": "rain", "label": "Rainfall"},
+    {"id": "canal", "label": "Canal"},
+    {"id": "groundwater", "label": "Groundwater / tube well"},
+    {"id": "river", "label": "River"},
+    {"id": "pond", "label": "Pond / reservoir"}
+  ]
+}
